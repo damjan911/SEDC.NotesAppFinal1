@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.NotesAppFinal1.DataAccess\SEDC.NotesAppFinal1.DataAccess.csproj" />
+    <ProjectReference Include="..\SEDC.NotesAppFinal1.DTOs\SEDC.NotesAppFinal1.DTOs.csproj" />
+    <ProjectReference Include="..\SEDC.NotesAppFinal1.Mappers\SEDC.NotesAppFinal1.Mappers.csproj" />
+  </ItemGroup>
+
+</Project>
